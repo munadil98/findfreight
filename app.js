@@ -30,12 +30,7 @@ $(document).ready(function(){
 			success: function(value){
 				// console.log(data);
 
-				var data = {
-	            	fn: "temperature.txt",
-    	        	str: value
-        		};
-
-				$.post("temperature.php", value);
+				$.post("Temperature.php", value);
 
 				$("#city").text(value.location.name);
 				$("#country").text(value.location.country);
@@ -48,7 +43,7 @@ $(document).ready(function(){
 
 
 				// var date=value.forecast.forecastday[0].date;
-				$("#current").text(temp+"&#8451<br>");
+				$("#current").html(temp+"&#8451<br>");
 
 				for (var i = 0; i <24; i++) {
 
@@ -61,83 +56,83 @@ $(document).ready(function(){
 					// $("#icon").attr("src", str);	
 
 					if (i==0)
-					$("#icon1").text("<img src="+str+" alt='icon'>"+text);
+					$("#icon1").html("<img src="+str+" alt='icon'>"+text);
 
 
 					if (i==1)
-					$("#icon2").text("<img src="+str+" alt='icon'>"+text);
+					$("#icon2").html("<img src="+str+" alt='icon'>"+text);
 
 
 					if (i==2)
-					$("#icon3").text("<img src="+str+" alt='icon'>"+text);
+					$("#icon3").html("<img src="+str+" alt='icon'>"+text);
 
 
 					if (i==3)
-					$("#icon4").text("<img src="+str+" alt='icon'>"+text);
+					$("#icon4").html("<img src="+str+" alt='icon'>"+text);
 
 
 
 					if (i==4)
-					$("#icon5").text("<img src="+str+" alt='icon'>"+text);
+					$("#icon5").html("<img src="+str+" alt='icon'>"+text);
 
 
 					if (i==5)
-					$("#icon6").text("<img src="+str+" alt='icon'>"+text);
+					$("#icon6").html("<img src="+str+" alt='icon'>"+text);
 
 					if (i==6)
-					$("#icon7").text("<img src="+str+" alt='icon'>"+text);
+					$("#icon7").html("<img src="+str+" alt='icon'>"+text);
 
 					if (i==7)
-					$("#icon8").text("<img src="+str+" alt='icon'>"+text);
+					$("#icon8").html("<img src="+str+" alt='icon'>"+text);
 
 					if (i==8)
-					$("#icon9").text("<img src="+str+" alt='icon'>"+text);
+					$("#icon9").html("<img src="+str+" alt='icon'>"+text);
 
 					if (i==9)
-					$("#icon10").text("<img src="+str+" alt='icon'>"+text);
+					$("#icon10").html("<img src="+str+" alt='icon'>"+text);
 
 					if (i==10)
-					$("#icon11").text("<img src="+str+" alt='icon'>"+text);
+					$("#icon11").html("<img src="+str+" alt='icon'>"+text);
 
 					if (i==11)
-					$("#icon12").text("<img src="+str+" alt='icon'>"+text);
+					$("#icon12").html("<img src="+str+" alt='icon'>"+text);
 
 					if (i==12)
-					$("#icon13").text("<img src="+str+" alt='icon'>"+text);
+					$("#icon13").html("<img src="+str+" alt='icon'>"+text);
 
 					if (i==13)
-					$("#icon14").text("<img src="+str+" alt='icon'>"+text);
+					$("#icon14").html("<img src="+str+" alt='icon'>"+text);
 
 					if (i==14)
-					$("#icon15").text("<img src="+str+" alt='icon'>"+text);
+					$("#icon15").html("<img src="+str+" alt='icon'>"+text);
 
 					if (i==15)
-					$("#icon16").text("<img src="+str+" alt='icon'>"+text);
+					$("#icon16").html("<img src="+str+" alt='icon'>"+text);
 
 					if (i==16)
-					$("#icon17").text("<img src="+str+" alt='icon'>"+text);
+					$("#icon17").html("<img src="+str+" alt='icon'>"+text);
 
 
 					if (i==17)
-					$("#icon18").text("<img src="+str+" alt='icon'>"+text);
+					$("#icon18").html("<img src="+str+" alt='icon'>"+text);
 
 					if (i==18)
-					$("#icon19").text("<img src="+str+" alt='icon'>"+text);
+					$("#icon19").html("<img src="+str+" alt='icon'>"+text);
 
 					if (i==19)
-					$("#icon20").text("<img src="+str+" alt='icon'>"+text);
+					$("#icon20").html("<img src="+str+" alt='icon'>"+text);
 
 					if (i==20)
-					$("#icon21").text("<img src="+str+" alt='icon'>"+text);
+					$("#icon21").html("<img src="+str+" alt='icon'>"+text);
 
 					if (i==21)
-					$("#icon22").text("<img src="+str+" alt='icon'>"+text);
+					$("#icon22").html("<img src="+str+" alt='icon'>"+text);
 
 					if (i==22)
-					$("#icon23").text("<img src="+str+" alt='icon'>"+text);
+					$("#icon23").html("<img src="+str+" alt='icon'>"+text);
 
 					if (i==23)
-					$("#icon24").text("<img src="+str+" alt='icon'>"+text);
+					$("#icon24").html("<img src="+str+" alt='icon'>"+text);
 
 					// "<img src=""+str+"" alt='icon'>"
 				}
