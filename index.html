@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Weather App</title>
+	
+	<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+<body>
+
+<div class="header">
+		<div class="overlay"></div>
+		<div class="title_section">
+			<h1 id="city" class="visibility">DHAKA</h1>
+			<h3 id="country" class="visibility">Bangladesh</h3>
+			<h3 id="region" class="visibility""></h3>
+			<!-- <span id="temp" class="visibility">40</span> -->
+			<!-- <span id="unit" class="visibility">&#8457;</span><br> -->
+			<span id="label-1" class="visibility">Last Update:</span>
+			<span id="update" class="visibility"></span><br><br>
+			<span id="label-2" class="visibility">Current Temperature:<br></span>
+			<span id="current" class="visibility"></span><br>
+			<h3 id="update" class="visibility"></h3>
+
+
+			<table>
+				<caption>Hourly Forecast</caption>
+				<tr>
+					<td class="icon1">12am<span id="icon1"></span></td>
+					<td class="icon2">1am<span id="icon2"></span></td>
+					<td class="icon3">2am<span id="icon3"></span></td>
+					<td class="icon4">3am<span id="icon4"></span></td>
+					<td class="icon5">4am<span id="icon5"></span></td>
+					<td class="icon6">5am<span id="icon6"></span></td>
+					<td class="icon7">6am<span id="icon7"></span></td>
+					<td class="icon8">7am<span id="icon8"></span></td>
+					<td class="icon9">8am<span id="icon9"></span></td>
+					<td class="icon10">9am<span id="icon10"></span></td>
+					<td class="icon11">10am<span id="icon11"></span></td>
+					<td class="icon12">11am<span id="icon12"></span></td>
+
+				</tr>
+
+				<tr>
+					<td class="icon13">12pm<span id="icon13"></span></td>
+					<td class="icon14">1pm<span id="icon14"></span></td>
+					<td class="icon15">2pm<span id="icon15"></span></td>
+					<td class="icon16">3pm<span id="icon16"></span></td>
+					<td class="icon17">4pm<span id="icon17"></span></td>
+					<td class="icon18">5pm<span id="icon18"></span></td>
+					<td class="icon19">6pm<span id="icon19"></span></td>
+					<td class="icon20">7pm<span id="icon20"></span></td>
+					<td class="icon21">8pm<span id="icon21"></span></td>
+					<td class="icon22">9pm<span id="icon22"></span></td>
+					<td class="icon23">10pm<span id="icon23"></span></td>
+					<td class="icon24">11pm<span id="icon24"></span></td>
+
+				</tr>
+			</table>
+
+
+			<input type="text" name="" id="cityname" 
+			placeholder="Enter City Name">
+<!-- 			<input type="text" name="" id="days" 
+			placeholder="Enter Forecasted days"> -->
+			<button id="btn">Find</button>
+
+
+		</div>
+</div>
+
+
+<!-- jquery -->
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script> 
+<!-- jquery UI -->
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
