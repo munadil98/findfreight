@@ -48,7 +48,7 @@ $(document).ready(function(){
 
 
 				// var date=value.forecast.forecastday[0].date;
-				$("#current").append(temp+"&#8451<br>");
+				$("#current").text(temp+"&#8451<br>");
 
 				for (var i = 0; i <24; i++) {
 
@@ -61,83 +61,83 @@ $(document).ready(function(){
 					// $("#icon").attr("src", str);	
 
 					if (i==0)
-					$("#icon1").append("<img src="+str+" alt='icon'>"+text);
+					$("#icon1").text("<img src="+str+" alt='icon'>"+text);
 
 
 					if (i==1)
-					$("#icon2").append("<img src="+str+" alt='icon'>"+text);
+					$("#icon2").text("<img src="+str+" alt='icon'>"+text);
 
 
 					if (i==2)
-					$("#icon3").append("<img src="+str+" alt='icon'>"+text);
+					$("#icon3").text("<img src="+str+" alt='icon'>"+text);
 
 
 					if (i==3)
-					$("#icon4").append("<img src="+str+" alt='icon'>"+text);
+					$("#icon4").text("<img src="+str+" alt='icon'>"+text);
 
 
 
 					if (i==4)
-					$("#icon5").append("<img src="+str+" alt='icon'>"+text);
+					$("#icon5").text("<img src="+str+" alt='icon'>"+text);
 
 
 					if (i==5)
-					$("#icon6").append("<img src="+str+" alt='icon'>"+text);
+					$("#icon6").text("<img src="+str+" alt='icon'>"+text);
 
 					if (i==6)
-					$("#icon7").append("<img src="+str+" alt='icon'>"+text);
+					$("#icon7").text("<img src="+str+" alt='icon'>"+text);
 
 					if (i==7)
-					$("#icon8").append("<img src="+str+" alt='icon'>"+text);
+					$("#icon8").text("<img src="+str+" alt='icon'>"+text);
 
 					if (i==8)
-					$("#icon9").append("<img src="+str+" alt='icon'>"+text);
+					$("#icon9").text("<img src="+str+" alt='icon'>"+text);
 
 					if (i==9)
-					$("#icon10").append("<img src="+str+" alt='icon'>"+text);
+					$("#icon10").text("<img src="+str+" alt='icon'>"+text);
 
 					if (i==10)
-					$("#icon11").append("<img src="+str+" alt='icon'>"+text);
+					$("#icon11").text("<img src="+str+" alt='icon'>"+text);
 
 					if (i==11)
-					$("#icon12").append("<img src="+str+" alt='icon'>"+text);
+					$("#icon12").text("<img src="+str+" alt='icon'>"+text);
 
 					if (i==12)
-					$("#icon13").append("<img src="+str+" alt='icon'>"+text);
+					$("#icon13").text("<img src="+str+" alt='icon'>"+text);
 
 					if (i==13)
-					$("#icon14").append("<img src="+str+" alt='icon'>"+text);
+					$("#icon14").text("<img src="+str+" alt='icon'>"+text);
 
 					if (i==14)
-					$("#icon15").append("<img src="+str+" alt='icon'>"+text);
+					$("#icon15").text("<img src="+str+" alt='icon'>"+text);
 
 					if (i==15)
-					$("#icon16").append("<img src="+str+" alt='icon'>"+text);
+					$("#icon16").text("<img src="+str+" alt='icon'>"+text);
 
 					if (i==16)
-					$("#icon17").append("<img src="+str+" alt='icon'>"+text);
+					$("#icon17").text("<img src="+str+" alt='icon'>"+text);
 
 
 					if (i==17)
-					$("#icon18").append("<img src="+str+" alt='icon'>"+text);
+					$("#icon18").text("<img src="+str+" alt='icon'>"+text);
 
 					if (i==18)
-					$("#icon19").append("<img src="+str+" alt='icon'>"+text);
+					$("#icon19").text("<img src="+str+" alt='icon'>"+text);
 
 					if (i==19)
-					$("#icon20").append("<img src="+str+" alt='icon'>"+text);
+					$("#icon20").text("<img src="+str+" alt='icon'>"+text);
 
 					if (i==20)
-					$("#icon21").append("<img src="+str+" alt='icon'>"+text);
+					$("#icon21").text("<img src="+str+" alt='icon'>"+text);
 
 					if (i==21)
-					$("#icon22").append("<img src="+str+" alt='icon'>"+text);
+					$("#icon22").text("<img src="+str+" alt='icon'>"+text);
 
 					if (i==22)
-					$("#icon23").append("<img src="+str+" alt='icon'>"+text);
+					$("#icon23").text("<img src="+str+" alt='icon'>"+text);
 
 					if (i==23)
-					$("#icon24").append("<img src="+str+" alt='icon'>"+text);
+					$("#icon24").text("<img src="+str+" alt='icon'>"+text);
 
 					// "<img src=""+str+"" alt='icon'>"
 				}
