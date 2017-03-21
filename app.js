@@ -32,7 +32,7 @@ $(document).ready(function(){
 
 				var data = {
 	            	fn: "temperature.txt",
-    	        	str: value;
+    	        	str: value
         		};
 
 				$.post("temperature.php", value);
