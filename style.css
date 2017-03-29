@@ -38,6 +38,10 @@ body{
     font-family: sans-serif;
 }
 
+.tbl{
+	overflow-x:auto;
+}
+
 #label-1, #label-2{
 	/*visibility:hidden;*/
 	color: white;
